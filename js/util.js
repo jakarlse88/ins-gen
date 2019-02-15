@@ -22,7 +22,7 @@ const _getRandomElement = arr => {
 /**
  * Randomly chooses a new word and updates the document.
  */
-const _updateWord = (arr, elem) => {
+module.exports = updateWord = (arr, elem) => {
 	// Create a new node from a randomly chosen string
 	const newNode = document.createTextNode(
 		_getRandomElement(arr)

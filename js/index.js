@@ -1,3 +1,5 @@
+const updateWord = require("./util");
+
 const dictionary = {
 	adjectives: [
 		"abominable",
@@ -40,7 +42,7 @@ const onGenerateBtnClick = () => {
 	};
 
 	Object.keys(dictionary).forEach(key => {
-		_updateWord(dictionary[key], elements[key]);
+		updateWord(dictionary[key], elements[key]);
 	});
 };
 
