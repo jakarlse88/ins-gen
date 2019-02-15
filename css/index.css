@@ -16,7 +16,7 @@ body {
 	max-width: 90%;
 	margin: auto;
 	display: grid;
-	grid-template-rows: 1fr auto 1fr;
+	grid-template-rows: auto 1fr auto;
 	grid-template-columns: 100%;
 }
 
@@ -26,4 +26,12 @@ body {
 
 .footer {
 	grid-row-start: 5;
+}
+
+.insult-field {
+	font-size: 2em;
+}
+
+.text-field {
+	margin-bottom: 1em;
 }
